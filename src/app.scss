@@ -1,6 +1,5 @@
 .app{
     height: 100vh;
-
 }
 
 .sections{
@@ -11,6 +10,7 @@
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none;
+    overflow-y: hidden;
     &::-webkit-scrollbar{
         display: none;
     }

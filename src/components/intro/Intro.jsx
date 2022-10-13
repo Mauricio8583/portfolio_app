@@ -17,7 +17,7 @@ const Intro = () => {
             <h3>FrontEnd</h3>
           </div>
           <a href='#featured'>
-            <ArrowDownward className='arrowDown' />
+            <img src='../../images/arrow_down.png' alt='' className='arrowDown' />
           </a>
         </div>
     </div>
