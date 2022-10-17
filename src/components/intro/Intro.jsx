@@ -14,7 +14,7 @@ const Intro = () => {
           <div className='wrapper'>
             <h2>Desenvolvedor Web</h2>
             <h1>Mauricio Oliveira</h1>
-            <h3>FrontEnd</h3>
+            <h3>FullStack</h3>
           </div>
           <a href='#featured'>
             <img src='../../images/arrow_down.png' alt='' className='arrowDown' />
