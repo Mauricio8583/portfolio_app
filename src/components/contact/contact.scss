@@ -1,12 +1,22 @@
+@import "../../global.scss";
+
 .contact{
     background-color: white;
     display: flex;
+
+    @include mobile{
+        flex-direction: column;
+    }
 
     .left{
         flex: 1;
 
         img{
             height: 100%;
+
+            @include mobile{
+                height: 100px;
+            }
         }
     }
 

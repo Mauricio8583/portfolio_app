@@ -8,6 +8,10 @@
 
     h1{
         font-size: 50px;
+
+        @include mobile{
+            font-size: 20px;
+        }
     }
 
     ul{
@@ -16,6 +20,10 @@
         list-style: none;
         display: flex;
 
+        @include mobile{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
         
     }
 
@@ -25,6 +33,10 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+
+        @include mobile{
+            width: 100%;
+        }
         
         img{
             width: 100%;
@@ -34,8 +46,8 @@
         }
 
         .appsContainerItem{
-            width: 220px;
-            height: 150px;
+            width: 250px;
+            height: 180px;
             border-radius: 20px;
             border: 1px solid rgb(240, 239, 239);
             margin: 10px 20px;
@@ -46,6 +58,11 @@
             position: relative;
             transition: all .5s ease;
             cursor: pointer;
+
+            @include mobile {
+                width: 150px;
+                height: 120px;
+            }
 
             h3{
                 position: absolute;

@@ -4,43 +4,30 @@ import './testimonials.scss'
 const Testimonials = () => {
 
   const skillsData = [
+    
     {
       id: 1,
-      name: 'Nodejs',
-      img: '../../images/nodejs.png',
-      desc: 'Linguagem que possuo mais familiaridade ao trabalhar com Back-End',
-      time: 'Conhecimentos nessa tecnologia desde 2020'
-    },
-    {
-      id: 2,
-      name: 'Reactjs',
-      img: '../../images/reactjs.png',
-      desc: 'Linguagem que possuo mais familiaridade ao trabalhar com Front-End',
-      time: 'Conhecimentos nessa tecnologia desde 2020'
-    },
-    {
-      id: 3,
       name: 'Javascript',
       img: '../../images/javascript.png',
-      desc: 'Meu foco de carreira é no conhecimento do Javascript e do seu ecossistema',
+      desc: 'Meu foco de carreira é no conhecimento do Javascript e do seu ecossistema, principalmente Reactjs e Nodejs',
       time: 'Conhecimentos nessa tecnologia desde 2014'
     },
     {
-      id: 4,
+      id: 2,
       name: 'PHP',
       img: '../../images/php.png',
       desc: 'Possuo conhecimento no PHP convencional e também Orientado a Objeto',
       time: 'Conhecimentos nessa tecnologia desde 2014'
     },
     {
-      id: 5,
+      id: 3,
       name: 'SQL',
       img: '../../images/sql.png',
       desc: 'Tecnologia que possuo mais familiaridade ao trabalhar com Banco de Dados Relacional',
       time: 'Conhecimentos nessa tecnologia desde 2014'
     },
     {
-      id: 6,
+      id: 4,
       name: 'MongoDB',
       img: '../../images/mongoDB.png',
       desc: 'Tecnologia que possuo mais familiaridade ao trabalhar com Banco de Dados Não-Relacional',
