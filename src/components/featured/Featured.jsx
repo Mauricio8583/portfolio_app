@@ -7,6 +7,8 @@ const Featured = () => {
 
   const [selected, setSelected] = useState('featured');
   const [data, setData]= useState([]);
+  const [openImage, setOpenImage] = useState(false);
+  const [image, setImage] = useState("");
 
   const list = [{
     id: 'featured',
@@ -42,7 +44,12 @@ const Featured = () => {
              
             
     }
-  },[selected])
+  },[selected]);
+
+  const handleOpenImage = (e) => {
+    setOpenImage(true);
+    setImage(e.target.id)    
+  }
 
   return (
     <div className='featured' id='featured'>
@@ -54,12 +61,21 @@ const Featured = () => {
         </ul>
         <div className='appsContainer'>
           {data.map((items) => (
+            
             <div className='appsContainerItem' key={items.id}>
-            <img src={items.img} alt='' />
+            <img src={items.img} alt='' id={items.img} onClick={handleOpenImage} />
             <h3>{items.title}</h3>            
          </div>
-          ))}          
+         ))} 
+              
         </div>
+        <div className='imgOpen'>
+          {openImage && <>
+          <img src={image} alt='' />
+          <span onClick={() => setOpenImage(false) }>X</span>
+          </>
+          }
+         </div>   
     </div>
   )
 }

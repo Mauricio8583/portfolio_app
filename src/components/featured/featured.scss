@@ -32,7 +32,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-wrap: wrap;
+        
 
         @include mobile{
             width: 100%;
@@ -78,7 +78,38 @@
             }
         }
 
+              
+    }
+
+    .imgOpen{
+        width: 80%;
+        height: 50%;
+        margin-top: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
         
+
+        img{
+            width: 50%;
+            height: 100%;
+                        
+        }
+
+        span{
+            position: absolute;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            top: -1vw;
+            right: 20vw;
+            background-color: white;
+            border-radius: 20px;
+            font-size: 30px;
+            cursor: pointer;
+        }
     }
 
 
