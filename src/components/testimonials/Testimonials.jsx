@@ -14,10 +14,10 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      name: 'PHP',
-      img: '../../images/php.png',
-      desc: 'Possuo conhecimento no PHP convencional e também Orientado a Objeto',
-      time: 'Conhecimentos nessa tecnologia desde 2014'
+      name: 'Python',
+      img: '../../images/python.png',
+      desc: 'Possuo conhecimento no Python com o framework Django e também com bibilhotecas voltadas para dados, como Pandas e Matplotlib',
+      time: 'Conhecimentos nessa tecnologia desde 2021'
     },
     {
       id: 3,
